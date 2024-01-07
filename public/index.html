@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">SM<span>H</span></a>
+        <!--Toogle write after complete navbar-->
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <!--Toogle End-->
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <!-- <li><a href="#menu" onclick="toggleMenu();">Skills</a></li> -->
+            <li><a href="#service" onclick="toggleMenu();"> Works</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!--Home section Start-->
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2><span>Hello </span>I'm Mustafa Hassan, <span>I'm a Web Developer.</span></h2>
+            <!-- <p>I'm a passionate Frontend Web Developer using wed technologies to build amazing products and focusing on solving problems for different industries using the power of technology.</p> -->
+            <!-- <p>I will love to hear from you. Whether it's a project, job opportunity, or just a chat. Feel free to contact me.</p> -->
+            <!-- <a href="#menu" class="btn">Our Menu</a> -->
+        </div>
+    </section>
+
+    <!--Home section End-->
+
+    <!--About section Start-->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titletext"> <span>A</span>bout <span>M</span>e</h2>
+                <h2 class="titletext"><span>P</span>ersonal <span>I</span>nfromation</h2>
+                <p>I'm a passionate Frontend Web Developer using wed technologies to build amazing products and focusing on solving problems for different industries using the power of technology.<br><br> I will love to hear from you. Whether it's a project, job opportunity, or just a chat. Feel free to contact me.</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="img/about.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About section End-->
+
+    <!--Skills section Start-->
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titletext"><span>M</span>y<span>S</span>kills</h2>
+            <p>Get to know more about me.</p>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/menu-1.png" alt="" width="225px" height="225px">
+                </div>
+                <div class="text">
+                    <h3>Cpp</h3>
+                </div>
+            </div>
+            <!--5 times paste-->
+
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/menu-2.png" alt="" width="225px" height="225px">
+                </div>
+                <div class="text">
+                    <h3>HTML</h3>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/menu-3.png" alt="" width="225px" height="225px">
+                </div>
+                <div class="text">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/menu-4.png" alt="" width="225px" height="225px">
+                </div>
+                <div class="text">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/skill-5.png" alt="" width="225px" height="225px">
+                </div>
+                <div class="text">
+                    <h3>C</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/download.png" alt="" width="225px" height="255px">
+                </div>
+                <div class="text">
+                    <h3>Bootstrap</h3>
+                </div>
+            </div>
+
+        </div>
+        <div class="title">
+            <a href="" class="btn">View All</a>
+        </div>
+    </section>
+    <!--Menu section End-->
+
+    <!--Service or projects section Start-->
+    <section class="service" id="service">
+        <div class="title">
+            <h2 class="titletext"><span>L</span>atest<span>P</span>rojects</h2>
+            <p>Here you can find some projects that I created recently.</p>
+        </div>
+
+        <div class="wrapper">
+            <div class="center-line">
+                <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+            </div>
+            <div class="row row-1">
+                <section>
+                    <i class="icon fas fa-home"></i>
+                    <div class="details">
+                        <span class="title">Cpp Projects</span>
+                        <span>10 Mar 2021</span>
+                    </div>
+                    <p>Bank Management System, Employee Management System and more using Cpp file
+                        handling with different data strcture.
+                    </p>
+                    <div class="bottom">
+                        <a href="#">See Live</a>
+                        <i>~ Mustafa</i>
+                    </div>
+                </section>
+            </div>
+
+            <div class="row row-2">
+                <section>
+                    <i class="icon fas fa-star"></i>
+                    <div class="details">
+                        <span class="title">Web Development Project</span>
+                        <span>12 Apr 2021</span>
+                    </div>
+                    <p>Todo App, Stop watch new year countdown, Search student app, Quiz app, Calculator and more using HTML5, CSS, JavaScript & Bootstrap .</p>
+                    <div class="bottom">
+                        <a href="#">See Live</a>
+                        <i>~ Mustafa</i>
+                    </div>
+                </section>
+            </div>
+
+            <div class="row row-1">
+                <section>
+                    <i class="icon fas fa-rocket"></i>
+                    <div class="details">
+                        <span class="title">JavaScript Mini Project</span>
+                        <span>18 Feb 2021</span>
+                    </div>
+                    <p>Analog Clock, Password Generator, Color Picker, Temperature Converter, Convert Text
+                        to Speech Show Hide Password and more using JavaScript.</p>
+                    <div class="bottom">
+                        <a href="#">See Live</a>
+                        <i>~ Mustafa</i>
+                    </div>
+                </section>
+            </div>
+
+            <div class="row row-2">
+                <section>
+                    <i class="icon fas fa-globe"></i>
+                    <div class="details">
+                        <span class="title">C Projects</span>
+                        <span>24 Oct 2020</span>
+                    </div>
+                    <p>ATM Machine System, Car Parking System and more using Cpp file
+                        handling with database.
+                    </p>
+                    <div class="bottom">
+                        <a href="#">See Live</a>
+                        <i>~ Mustafa</i>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+    </section>
+    <!--Service section End-->
+
+    <!--Contact section Start-->
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titletext"><span>C</span>ontact <span>M</span>e</h2>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> -->
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <form action="#">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="inputBox">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="inputBox">
+                    <textarea name="" placeholder="Message" required></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+    <!--Contact section End-->
+
+    <!--Footer section Start-->
+    <div class="copyrightText">
+        <p>Made with heart by <a href="#">SMH Developer</a>. All Right Reserved &copy; 2021</p>
+        <div class="footer-icons">
+            <a target="_" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a target="_" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a target="_" href="https://www.linkedin.com/in/mustafa-hassan-081805234/"><i class="fab fa-linkedin"></i></a>
+            <a target="_" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            <a target="_" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+    <!--Footer section End-->
+    <script src="script.js"></script>
+</body>
+
+</html>
